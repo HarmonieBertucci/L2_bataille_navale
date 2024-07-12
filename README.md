@@ -1,5 +1,5 @@
 # L2_bataille_navale
-Projet de L2 Informatique. Bataille Navale en Java (POO), apprentissage du MVC. 
+(2021) Projet de L2 Informatique. Bataille Navale en Java (POO), apprentissage du MVC. 
 
 # Description du projet et objectifs
 Ce projet a pour but la création d'un jeu de Bataille-Navale, avec interface graphique, où l'utilisateur peut jouer contre l'ordinateur. 
