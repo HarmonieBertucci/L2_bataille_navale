@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.Controller">
+   <children>
+      <Separator layoutX="497.0" layoutY="150.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="6.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="497.0" AnchorPane.topAnchor="0.0" />
+      <BorderPane layoutX="-1.0" layoutY="1.0" prefHeight="600.0" prefWidth="500.0">
+         <center>
+            <AnchorPane fx:id="LeftPane" prefHeight="450.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+               <children>
+                  <GridPane gridLinesVisible="true" layoutX="25.0" layoutY="4.0" prefHeight="20.0" prefWidth="450.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="H" GridPane.columnIndex="7" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="B" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="C" GridPane.columnIndex="2" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="D" GridPane.columnIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="E" GridPane.columnIndex="4" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="G" GridPane.columnIndex="6" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="F" GridPane.columnIndex="5" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="I" GridPane.columnIndex="8" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="J" GridPane.columnIndex="9" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="A" />
+                     </children>
+                  </GridPane>
+                  <Rectangle fx:id="LeftRectangle" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="450.0" layoutX="25.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="450.0" />
+                  <GridPane gridLinesVisible="true" layoutX="-211.0" layoutY="239.0" prefHeight="20.0" prefWidth="450.0" rotate="270.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="3" GridPane.columnIndex="7" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="9" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="8" GridPane.columnIndex="2" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="7" GridPane.columnIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="6" GridPane.columnIndex="4" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="4" GridPane.columnIndex="6" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="5" GridPane.columnIndex="5" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="2" GridPane.columnIndex="8" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="1" GridPane.columnIndex="9" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="10" />
+                     </children>
+                  </GridPane>
+
+                  <Pane fx:id="StackLeft" focusTraversable="true" layoutX="25.0" layoutY="25.0" onMouseClicked="#LeftRectangleClick" prefHeight="450.0" prefWidth="450.0" />
+                  <Label layoutX="353.0" layoutY="474.0" text="Opponent fleet">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="568.0" text="Made by J.BIRETTE - H.BERTUCCI - H.PARIS - C.FLAGEUL" />
+                  <Label layoutX="25.0" layoutY="542.0" text="BATTLESHIP GAME" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+      <BorderPane layoutX="500.0" layoutY="1.0" prefHeight="600.0" prefWidth="500.0">
+         <center>
+            <AnchorPane fx:id="RightPane" prefHeight="450.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle fx:id="RightRectangle" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="450.0" layoutX="25.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="450.0" />
+                  <GridPane gridLinesVisible="true" layoutX="25.0" layoutY="4.0" prefHeight="20.0" prefWidth="450.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="H" GridPane.columnIndex="7" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="B" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="C" GridPane.columnIndex="2" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="D" GridPane.columnIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="E" GridPane.columnIndex="4" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="G" GridPane.columnIndex="6" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="F" GridPane.columnIndex="5" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="I" GridPane.columnIndex="8" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="J" GridPane.columnIndex="9" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="A" />
+                     </children>
+                  </GridPane>
+                  <GridPane gridLinesVisible="true" layoutX="-211.0" layoutY="239.0" prefHeight="20.0" prefWidth="450.0" rotate="270.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="3" GridPane.columnIndex="7" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="9" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="8" GridPane.columnIndex="2" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="7" GridPane.columnIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="6" GridPane.columnIndex="4" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="4" GridPane.columnIndex="6" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="5" GridPane.columnIndex="5" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="2" GridPane.columnIndex="8" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="1" GridPane.columnIndex="9" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="45.0" text="10" />
+                     </children>
+                  </GridPane>
+
+                  <Pane fx:id="StackRight" focusTraversable="true" layoutX="25.0" layoutY="26.0" onMouseClicked="#RightRectangleClick" prefHeight="450.0" prefWidth="450.0" />
+                  <Label layoutX="410.0" layoutY="474.0" text="My fleet">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="253.0" layoutY="536.0" prefHeight="25.0" prefWidth="225.0" text="Click on the right grid to place a ship" />
+                  <Label layoutX="24.0" layoutY="536.0" prefHeight="25.0" prefWidth="225.0" text="Click on the left grid to place a marker    -" />
+                  <Label fx:id="ShipsNumberLabel" layoutX="25.0" layoutY="563.0" prefHeight="25.0" prefWidth="140.0" text="Ships to put on the grid : " />
+                  <Label fx:id="WarningLabel" layoutX="25.0" layoutY="510.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Label fx:id="Ship1" layoutX="168.0" layoutY="567.0" text="■■" />
+                  <Label fx:id="Ship2" layoutX="199.0" layoutY="567.0" text="■■■" />
+                  <Label fx:id="Ship3" layoutX="242.0" layoutY="567.0" text="■■■" />
+                  <Label fx:id="Ship4" layoutX="286.0" layoutY="567.0" text="■■■■" />
+                  <Label fx:id="Ship5" layoutX="340.0" layoutY="567.0" text="■■■■■" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
