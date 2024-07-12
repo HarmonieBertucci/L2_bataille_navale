@@ -17,3 +17,6 @@ La flotte de l'adversaire est identique à celle du joueur, et ses bateaux sont 
 sa grille, chaque partie étant différente les unes des autres. Les navires sont représentés par des carrés,
 et les torpilles par des cercles. Elle sont bleues lorsqu'elles atterrissent sur une case ne comportant
 pas de navires, orange lorsqu'elles touchent un navire, et rouges lorsqu'elles coulent un navire.
+
+
+(javafx-sdk-15.0.1 requis : dist/lib/javafx-sdk-15.0.1/)
