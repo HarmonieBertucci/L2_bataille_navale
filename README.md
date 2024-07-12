@@ -4,7 +4,7 @@ Projet de L2 Informatique. Bataille Navale en Java (POO), apprentissage du MVC.
 # Description du projet et objectifs
 Ce projet a pour but la création d'un jeu de Bataille-Navale, avec interface graphique, où l'utilisateur peut jouer contre l'ordinateur. 
 Le joueur peut disposer ses navires à sa guise, ceux de l'adversaire étant placés aléatoirement sur le plateau. 
-L'interface graphique est divisée en deux parties, la flotte de l'utilisateur et celle de l'adversaire (la machine).
+L'interface graphique est divisée en deux parties, la flotte de l'utilisateur et celle de l'adversaire (la machine).
 
 # Manuel d'utilisation
 Le joueur dispose de cinq navires, à placer sur la grille de droite, représentant sa flotte. Il y a
